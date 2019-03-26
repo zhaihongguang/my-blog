@@ -464,7 +464,7 @@
   </select>
 
   <select id="findAllTags" resultType="map">
-    select tags from t_contents  WHERE tags is not null group by tags
+    select categories from t_contents  WHERE categories is not null group by categories
   </select>
 
 

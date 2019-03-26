@@ -6,7 +6,7 @@
 
     <div class="categorys-item" style="float:left;list-style: none">
         <div:block th:each="tags : ${tag}"  style="float:left;list-style: none">
-            <p class="post-tags" th:each="entry : ${tags}"  th:utext="${commons.show_tags(entry.value)}" ></p>
+            <p class="post-tags" th:each="entry : ${tags}"  th:utext="${commons.show_categories(entry.value)}" ></p>
         </div:block>
     </div>
     <div class="categorys-item" style="padding-top: 100px">
